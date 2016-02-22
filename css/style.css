@@ -135,6 +135,15 @@ a {
 .flex-box {
   display: -webkit-flex;
   display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.flex-box-row {
+  display: -webkit-flex;
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -153,7 +162,7 @@ ul {
   float: left;
   padding: 10px;
   width: 200px;
-  display: none;
+  
 }
 
 img {
